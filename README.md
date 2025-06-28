@@ -40,7 +40,6 @@ Dataset characteristics:
 ### 1. Data Loading & Exploration
 - Load dataset from sklearn
 - Convert to pandas DataFrame
-- Explore shape, info, and statistical properties
 - Check class distribution (212 malignant vs 357 benign)
 
 ### 2. Data Preprocessing
@@ -68,7 +67,6 @@ Dataset characteristics:
 
 ### 6. Prediction System
 - Takes input feature values
-- Standardizes input using fitted scaler
 - Predicts malignancy with probability
 
 ---
@@ -79,10 +77,6 @@ Dataset characteristics:
 - Final Training Accuracy: 98.3%
 - Validation Accuracy: 97.8%
 - Test Accuracy: 95.6%
-
-**Learning Curves:**
-![Accuracy Plot](accuracy_plot.png)
-![Loss Plot](loss_plot.png)
 
 ---
 
@@ -98,10 +92,6 @@ input_data = (13.54,14.36,87.46,566.3,0.09779,0.08129,0.06664,0.04781,0.1885,0.0
 [np.int64(0)]
 The breast cancer is Malignant
 ```
-
-
----
-
 
 ---
 
